@@ -1,6 +1,7 @@
 variable "bucket" {
   description = "Name of the bucket."
   type        = string
+  default     = "dgs3bucket54654"
 }
 
 variable "force_destroy" {
